@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DFD9790D-D42C-4AB5-9906-F9C1A1917AF5"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58420306-3758-40AB-8195-B6267E52ED60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABEO/View Controller/History Page/Views/HistoryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "callingHistory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A805D857-F9E7-4060-A383-E521B0C4E38B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABEO/View Controller/BaseVC+Menu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "setupMenuUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BECFF51-98FD-4C87-A4E6-795B87FEBE8D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABEO/View Controller/BaseVC+Menu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setupMenuUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7CC8F6E-5E15-4DE1-861A-9B7E298FDE73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABEO/View Controller/Register Page/RegisterVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "F7CC8F6E-5E15-4DE1-861A-9B7E298FDE73 - 1452841985461a44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in ABEO.RegisterVM.callingRegisterRequest(model: ABEO.RegisterModel, image: Swift.Optional&lt;__C.UIImage&gt;, completionHandler: (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ABEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ravi/Documents/ABEO/ABEO/View%20Controller/Register%20Page/RegisterVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "385">
+               </Location>
+               <Location
+                  uuid = "F7CC8F6E-5E15-4DE1-861A-9B7E298FDE73 - 1452841985461a44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in ABEO.RegisterVM.callingRegisterRequest(model: ABEO.RegisterModel, image: Swift.Optional&lt;__C.UIImage&gt;, completionHandler: (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ABEO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ravi/Documents/ABEO/ABEO/View%20Controller/Register%20Page/RegisterVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "423">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
