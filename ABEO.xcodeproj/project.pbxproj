@@ -35,8 +35,14 @@
 		A9173C882628C3F400124FD3 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9173C872628C3F400124FD3 /* ExerciseCell.swift */; };
 		A919ABE82615F9DC00091291 /* DailyTrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919ABE72615F9DC00091291 /* DailyTrackerVC.swift */; };
 		A919ABEA2615FDE400091291 /* BaseExpandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919ABE92615FDE400091291 /* BaseExpandVC.swift */; };
+		A9275E6D262E7EC700145B15 /* ClinicsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9275E6C262E7EC700145B15 /* ClinicsList.swift */; };
+		A9275E6F262E95CF00145B15 /* ScreeningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9275E6E262E95CF00145B15 /* ScreeningCell.swift */; };
+		A9275E71262E9CB800145B15 /* NutritionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9275E70262E9CB800145B15 /* NutritionCell.swift */; };
+		A9275E73262EACC500145B15 /* RequestPatientNutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9275E72262EACC500145B15 /* RequestPatientNutrition.swift */; };
 		A930759C25F382F7002A755F /* ExtensionHomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930759B25F382F7002A755F /* ExtensionHomeTableView.swift */; };
 		A930759E25F3839C002A755F /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930759D25F3839C002A755F /* Sections.swift */; };
+		A949F8B1262C022A0040E605 /* MedicineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A949F8B0262C022A0040E605 /* MedicineCell.swift */; };
+		A949F8B3262C19A30040E605 /* RequestPatientMedicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A949F8B2262C19A30040E605 /* RequestPatientMedicine.swift */; };
 		A94F25D7261DB4970047443A /* ChartsComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94F25D6261DB4970047443A /* ChartsComments.swift */; };
 		A94F262B261EE9EE0047443A /* VitalsHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94F262A261EE9EE0047443A /* VitalsHeaderCell.xib */; };
 		A950B8392607157100474BBC /* Additional_diagnosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A950B8382607157100474BBC /* Additional_diagnosis.swift */; };
@@ -76,6 +82,15 @@
 		A9A72849262ADAE1008963EA /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A72848262ADAE1008963EA /* CustomSlider.swift */; };
 		A9A7284C262ADB06008963EA /* RVSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A7284A262ADB05008963EA /* RVSliderView.swift */; };
 		A9A7284D262ADB06008963EA /* RVSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A7284B262ADB06008963EA /* RVSliderView.xib */; };
+		A9AED24C262DF98E00B8F921 /* RequestPatientExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AED24B262DF98E00B8F921 /* RequestPatientExercise.swift */; };
+		A9AED251262DFD4400B8F921 /* NutritionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AED250262DFD4400B8F921 /* NutritionVC.swift */; };
+		A9AED254262E0B8F00B8F921 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = A9AED253262E0B8F00B8F921 /* FirebaseInstallations */; };
+		A9AED256262E0B8F00B8F921 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A9AED255262E0B8F00B8F921 /* FirebaseDatabase */; };
+		A9AED258262E0B8F00B8F921 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A9AED257262E0B8F00B8F921 /* FirebaseStorageSwift-Beta */; };
+		A9AED25A262E0B8F00B8F921 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A9AED259262E0B8F00B8F921 /* FirebaseStorage */; };
+		A9AED25C262E0B8F00B8F921 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = A9AED25B262E0B8F00B8F921 /* FirebaseRemoteConfig */; };
+		A9AED25E262E0B8F00B8F921 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A9AED25D262E0B8F00B8F921 /* FirebaseMessaging */; };
+		A9AED260262E0B8F00B8F921 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A9AED25F262E0B8F00B8F921 /* FirebaseAuth */; };
 		A9B9B78825F68D37005C7194 /* Targets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9B78725F68D37005C7194 /* Targets.swift */; };
 		A9C10B8E262B63A60019E2D8 /* RVSliderPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C10B8D262B63A60019E2D8 /* RVSliderPopUpView.swift */; };
 		A9C10B90262B63AE0019E2D8 /* RVSliderPopUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C10B8F262B63AE0019E2D8 /* RVSliderPopUpView.xib */; };
@@ -303,8 +318,14 @@
 		A9173C872628C3F400124FD3 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
 		A919ABE72615F9DC00091291 /* DailyTrackerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTrackerVC.swift; sourceTree = "<group>"; };
 		A919ABE92615FDE400091291 /* BaseExpandVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseExpandVC.swift; sourceTree = "<group>"; };
+		A9275E6C262E7EC700145B15 /* ClinicsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicsList.swift; sourceTree = "<group>"; };
+		A9275E6E262E95CF00145B15 /* ScreeningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreeningCell.swift; sourceTree = "<group>"; };
+		A9275E70262E9CB800145B15 /* NutritionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCell.swift; sourceTree = "<group>"; };
+		A9275E72262EACC500145B15 /* RequestPatientNutrition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPatientNutrition.swift; sourceTree = "<group>"; };
 		A930759B25F382F7002A755F /* ExtensionHomeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHomeTableView.swift; sourceTree = "<group>"; };
 		A930759D25F3839C002A755F /* Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		A949F8B0262C022A0040E605 /* MedicineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineCell.swift; sourceTree = "<group>"; };
+		A949F8B2262C19A30040E605 /* RequestPatientMedicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPatientMedicine.swift; sourceTree = "<group>"; };
 		A94F25D6261DB4970047443A /* ChartsComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsComments.swift; sourceTree = "<group>"; };
 		A94F262A261EE9EE0047443A /* VitalsHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VitalsHeaderCell.xib; sourceTree = "<group>"; };
 		A950B8382607157100474BBC /* Additional_diagnosis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Additional_diagnosis.swift; sourceTree = "<group>"; };
@@ -343,6 +364,8 @@
 		A9A72848262ADAE1008963EA /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		A9A7284A262ADB05008963EA /* RVSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVSliderView.swift; sourceTree = "<group>"; };
 		A9A7284B262ADB06008963EA /* RVSliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RVSliderView.xib; sourceTree = "<group>"; };
+		A9AED24B262DF98E00B8F921 /* RequestPatientExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPatientExercise.swift; sourceTree = "<group>"; };
+		A9AED250262DFD4400B8F921 /* NutritionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionVC.swift; sourceTree = "<group>"; };
 		A9B9B78725F68D37005C7194 /* Targets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Targets.swift; sourceTree = "<group>"; };
 		A9C10B8D262B63A60019E2D8 /* RVSliderPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVSliderPopUpView.swift; sourceTree = "<group>"; };
 		A9C10B8F262B63AE0019E2D8 /* RVSliderPopUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RVSliderPopUpView.xib; sourceTree = "<group>"; };
@@ -536,13 +559,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9AED256262E0B8F00B8F921 /* FirebaseDatabase in Frameworks */,
+				A9AED260262E0B8F00B8F921 /* FirebaseAuth in Frameworks */,
 				BE51276925E6548300A4030E /* MBProgressHUD in Frameworks */,
+				A9AED25E262E0B8F00B8F921 /* FirebaseMessaging in Frameworks */,
 				A950B87F26071FD900474BBC /* BetterSegmentedControl in Frameworks */,
 				BE99756425E655310066EE36 /* IQKeyboardManagerSwift in Frameworks */,
+				A9AED254262E0B8F00B8F921 /* FirebaseInstallations in Frameworks */,
+				A9AED25A262E0B8F00B8F921 /* FirebaseStorage in Frameworks */,
 				9562CD96710B32C42610E4E9 /* Pods_ABEO.framework in Frameworks */,
 				BE9975F825E668DE0066EE36 /* Charts in Frameworks */,
 				BE9975A525E65B8A0066EE36 /* Alamofire in Frameworks */,
 				BE56E75724059D5000DFF674 /* NetworkExtension.framework in Frameworks */,
+				A9AED25C262E0B8F00B8F921 /* FirebaseRemoteConfig in Frameworks */,
+				A9AED258262E0B8F00B8F921 /* FirebaseStorageSwift-Beta in Frameworks */,
 				BE99758525E657DC0066EE36 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,6 +652,67 @@
 			path = "View Model";
 			sourceTree = "<group>";
 		};
+		A949F8B4262C69940040E605 /* Track Medicines */ = {
+			isa = PBXGroup;
+			children = (
+				A949F8B6262C69DB0040E605 /* Views */,
+				A949F8B5262C69CA0040E605 /* Models */,
+			);
+			path = "Track Medicines";
+			sourceTree = "<group>";
+		};
+		A949F8B5262C69CA0040E605 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A949F8B2262C19A30040E605 /* RequestPatientMedicine.swift */,
+				A9069A89262439E3008F9011 /* SummaryMedicines.swift */,
+				A9069A8B26243A0F008F9011 /* Medicines_list.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A949F8B6262C69DB0040E605 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE4BCC262A243F006E5187 /* PatientMedicinesVC.swift */,
+				A949F8B0262C022A0040E605 /* MedicineCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A949F8B7262C77E30040E605 /* Track Vitals */ = {
+			isa = PBXGroup;
+			children = (
+				A949F8B9262C783F0040E605 /* Views */,
+				A949F8B8262C781C0040E605 /* Models */,
+			);
+			path = "Track Vitals";
+			sourceTree = "<group>";
+		};
+		A949F8B8262C781C0040E605 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE4BCA262A1FE1006E5187 /* RequestPatientVitalModel.swift */,
+				A9069A7F262438A7008F9011 /* SummaryVitals.swift */,
+				A9069A81262438CA008F9011 /* Vitals_list.swift */,
+				A9069A8326243906008F9011 /* Risk_levels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A949F8B9262C783F0040E605 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9A72844262AD52E008963EA /* PatientsVitalsVC.swift */,
+				A9A72846262AD598008963EA /* PatientVitalsCell.swift */,
+				A9A7284A262ADB05008963EA /* RVSliderView.swift */,
+				A9A7284B262ADB06008963EA /* RVSliderView.xib */,
+				A9C10B8D262B63A60019E2D8 /* RVSliderPopUpView.swift */,
+				A9C10B8F262B63AE0019E2D8 /* RVSliderPopUpView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A9A3163E261161C400372AAA /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -639,6 +730,33 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		A9AED24D262DFCAC00B8F921 /* Track Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				A9AED24E262DFCBF00B8F921 /* Views */,
+				A9AED24F262DFCC900B8F921 /* Models */,
+			);
+			path = "Track Exercise";
+			sourceTree = "<group>";
+		};
+		A9AED24E262DFCBF00B8F921 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9173C852628BBF400124FD3 /* ExerciseVC.swift */,
+				A9173C872628C3F400124FD3 /* ExerciseCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9AED24F262DFCC900B8F921 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9069A87262439A0008F9011 /* SummaryExercise.swift */,
+				A9AED24B262DF98E00B8F921 /* RequestPatientExercise.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A9C6149725FDD3F0000401FF /* JTImageButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -646,6 +764,33 @@
 				A9C6149925FDD3F0000401FF /* JTImageButton.h */,
 			);
 			path = JTImageButton;
+			sourceTree = "<group>";
+		};
+		A9CCF3FD262F3C2300B889F3 /* Track Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				A9CCF3FF262F3C3B00B889F3 /* Views */,
+				A9CCF3FE262F3C3500B889F3 /* Models */,
+			);
+			path = "Track Nutrition";
+			sourceTree = "<group>";
+		};
+		A9CCF3FE262F3C3500B889F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9069A8526243941008F9011 /* SummaryNutrition.swift */,
+				A9275E72262EACC500145B15 /* RequestPatientNutrition.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9CCF3FF262F3C3B00B889F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9AED250262DFD4400B8F921 /* NutritionVC.swift */,
+				A9275E70262E9CB800145B15 /* NutritionCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A9D48CF525FB8DCE00E4FA1E /* Views */ = {
@@ -693,6 +838,7 @@
 				A94F262A261EE9EE0047443A /* VitalsHeaderCell.xib */,
 				A950B8882607620B00474BBC /* VitalsUnitsCell.swift */,
 				A9A3165E2612F3BA00372AAA /* DownloadInvoiceCell.swift */,
+				A9275E6E262E95CF00145B15 /* ScreeningCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -767,6 +913,10 @@
 		BE1990EF240AFA0D00DDE0BD /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				A9CCF3FD262F3C2300B889F3 /* Track Nutrition */,
+				A9AED24D262DFCAC00B8F921 /* Track Exercise */,
+				A949F8B7262C77E30040E605 /* Track Vitals */,
+				A949F8B4262C69940040E605 /* Track Medicines */,
 				BE56E75F2405B01E00DFF674 /* HomeViewController.swift */,
 				A97AFCEF2621BB2500A7EB20 /* PatientSummaryCell.swift */,
 				A930759B25F382F7002A755F /* ExtensionHomeTableView.swift */,
@@ -917,16 +1067,6 @@
 			children = (
 				BEC1F9B42333F645006B965E /* InformationViewController.swift */,
 				BEC1F9B62333FEEF006B965E /* InformationCollectionViewCell.swift */,
-				A9EE4BCC262A243F006E5187 /* PatientMedicinesVC.swift */,
-				A9A72844262AD52E008963EA /* PatientsVitalsVC.swift */,
-				A9A72846262AD598008963EA /* PatientVitalsCell.swift */,
-				A9A7284A262ADB05008963EA /* RVSliderView.swift */,
-				A9A7284B262ADB06008963EA /* RVSliderView.xib */,
-				A9EE4BCA262A1FE1006E5187 /* RequestPatientVitalModel.swift */,
-				A9C10B8D262B63A60019E2D8 /* RVSliderPopUpView.swift */,
-				A9C10B8F262B63AE0019E2D8 /* RVSliderPopUpView.xib */,
-				A9173C852628BBF400124FD3 /* ExerciseVC.swift */,
-				A9173C872628C3F400124FD3 /* ExerciseCell.swift */,
 				BE21D5D02404C137002C7522 /* Login Page */,
 				BE56E7582405A9EE00DFF674 /* Register Page */,
 				BE21D5CB2404BB0D002C7522 /* Forgot Password */,
@@ -1057,6 +1197,7 @@
 				A950B84E2607167600474BBC /* Recommendations.swift */,
 				BE56E7422404C85500DFF674 /* AppointmentModel.swift */,
 				BEC2643E2422F2D000AA49BF /* AppointmentSummaryModel.swift */,
+				A9275E6C262E7EC700145B15 /* ClinicsList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1110,13 +1251,6 @@
 				A9B9B78725F68D37005C7194 /* Targets.swift */,
 				A9F703C82617465B00CC4415 /* LifeStyleModel.swift */,
 				A9069A7D26243751008F9011 /* SummaryEvents.swift */,
-				A9069A7F262438A7008F9011 /* SummaryVitals.swift */,
-				A9069A81262438CA008F9011 /* Vitals_list.swift */,
-				A9069A8326243906008F9011 /* Risk_levels.swift */,
-				A9069A8526243941008F9011 /* SummaryNutrition.swift */,
-				A9069A87262439A0008F9011 /* SummaryExercise.swift */,
-				A9069A89262439E3008F9011 /* SummaryMedicines.swift */,
-				A9069A8B26243A0F008F9011 /* Medicines_list.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1156,6 +1290,13 @@
 				BE9975A425E65B8A0066EE36 /* Alamofire */,
 				BE9975F725E668DE0066EE36 /* Charts */,
 				A950B87E26071FD900474BBC /* BetterSegmentedControl */,
+				A9AED253262E0B8F00B8F921 /* FirebaseInstallations */,
+				A9AED255262E0B8F00B8F921 /* FirebaseDatabase */,
+				A9AED257262E0B8F00B8F921 /* FirebaseStorageSwift-Beta */,
+				A9AED259262E0B8F00B8F921 /* FirebaseStorage */,
+				A9AED25B262E0B8F00B8F921 /* FirebaseRemoteConfig */,
+				A9AED25D262E0B8F00B8F921 /* FirebaseMessaging */,
+				A9AED25F262E0B8F00B8F921 /* FirebaseAuth */,
 			);
 			productName = ABEO;
 			productReference = BEC1F99F2333EDEA006B965E /* ABEO.app */;
@@ -1192,6 +1333,7 @@
 				BE9975A325E65B8A0066EE36 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				BE9975C025E662000066EE36 /* XCRemoteSwiftPackageReference "Charts" */,
 				A950B87D26071FD900474BBC /* XCRemoteSwiftPackageReference "BetterSegmentedControl" */,
+				A9AED252262E0B8F00B8F921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = BEC1F9A02333EDEA006B965E /* Products */;
 			projectDirPath = "";
@@ -1309,6 +1451,7 @@
 				A950B8E52607C84000474BBC /* TargetHeaderCell.swift in Sources */,
 				A950B8892607620B00474BBC /* VitalsUnitsCell.swift in Sources */,
 				BE6C99BD2440766500C3A343 /* AddVitalsTableViewCell.swift in Sources */,
+				A9275E73262EACC500145B15 /* RequestPatientNutrition.swift in Sources */,
 				A9A3163A2610BDA000372AAA /* VerticalAlignLabel.swift in Sources */,
 				A9F703CD2617985F00CC4415 /* VitalGraphsCell.swift in Sources */,
 				BECC40BC2416B38800E804BE /* CustomFonts.swift in Sources */,
@@ -1316,12 +1459,14 @@
 				A9C614A025FDFB2E000401FF /* CareMedicines.swift in Sources */,
 				BE5AD2222339475E00673BE8 /* HexColor.swift in Sources */,
 				A9F703C526171B3C00CC4415 /* CarePlansCell.swift in Sources */,
+				A949F8B3262C19A30040E605 /* RequestPatientMedicine.swift in Sources */,
 				BE56E7542405938D00DFF674 /* RegisterModel.swift in Sources */,
 				A96EA24525F1229700ECBE58 /* ListOfProfilesViewController.swift in Sources */,
 				A9A31638261099BC00372AAA /* BaseVC+Loader.swift in Sources */,
 				BEE06F9C24084B13002FC4EC /* BaseViewController.swift in Sources */,
 				A9069A8C26243A0F008F9011 /* Medicines_list.swift in Sources */,
 				A911161D25FD26F90081167E /* SideEffectsViewController.swift in Sources */,
+				A949F8B1262C022A0040E605 /* MedicineCell.swift in Sources */,
 				BE742111240A8C6900CD74D3 /* ProfileModel.swift in Sources */,
 				A9D48CF025FB898D00E4FA1E /* AppStoryboard.swift in Sources */,
 				A950B88726074C6100474BBC /* VitalsHeaderCell.swift in Sources */,
@@ -1329,6 +1474,7 @@
 				BE56E7492404C88300DFF674 /* AddAppointmentViewController.swift in Sources */,
 				BE74210C240A766900CD74D3 /* ErrorModel.swift in Sources */,
 				BE92968F24152B3C002C535A /* VitalsListTableViewCell.swift in Sources */,
+				A9275E71262E9CB800145B15 /* NutritionCell.swift in Sources */,
 				BE5AD228233956D600673BE8 /* RegisterViewController.swift in Sources */,
 				A9069A7C262423E5008F9011 /* DailyEventCell.swift in Sources */,
 				A91115A525FB99540081167E /* AppointmentDetailsViewConroller.swift in Sources */,
@@ -1415,6 +1561,7 @@
 				BE4ACD68243F472200B0281F /* AddVitalsViewController.swift in Sources */,
 				A9EE4BCD262A243F006E5187 /* PatientMedicinesVC.swift in Sources */,
 				BEC264342422F05E00AA49BF /* Medical_history.swift in Sources */,
+				A9AED24C262DF98E00B8F921 /* RequestPatientExercise.swift in Sources */,
 				BEBE35B624F4194B00608FCB /* ICanHas.swift in Sources */,
 				BE47A7052417FCA1008ADF2D /* ApppointmentSummaryViewController.swift in Sources */,
 				BE696BAE23534E560081E9D0 /* APIRouter.swift in Sources */,
@@ -1447,6 +1594,7 @@
 				BEC2642A2422F05E00AA49BF /* Cholestrol.swift in Sources */,
 				BEC1F9B52333F645006B965E /* InformationViewController.swift in Sources */,
 				A9A316652613280400372AAA /* AllergiesVC.swift in Sources */,
+				A9AED251262DFD4400B8F921 /* NutritionVC.swift in Sources */,
 				A9ECC4FC260A034D001249B2 /* DefaultSubmitCell.swift in Sources */,
 				BE99763A25E6AFC90066EE36 /* Toast+Extension.swift in Sources */,
 				A9ECC4E62609FFC6001249B2 /* RevokeCell.swift in Sources */,
@@ -1460,6 +1608,7 @@
 				A9A3165226116FC000372AAA /* ExpandHeaderCell.swift in Sources */,
 				A9069A88262439A0008F9011 /* SummaryExercise.swift in Sources */,
 				A9C10B8E262B63A60019E2D8 /* RVSliderPopUpView.swift in Sources */,
+				A9275E6D262E7EC700145B15 /* ClinicsList.swift in Sources */,
 				BE33754D23340A3200B61718 /* LoginViewController.swift in Sources */,
 				BE7A597B23FF0414009782FD /* ForgotPasswordModel.swift in Sources */,
 				BEC264302422F05E00AA49BF /* A1c.swift in Sources */,
@@ -1476,6 +1625,7 @@
 				A97AFCF02621BB2500A7EB20 /* PatientSummaryCell.swift in Sources */,
 				A9F1D840260857FC0095E930 /* CareModel.swift in Sources */,
 				A9A72845262AD52E008963EA /* PatientsVitalsVC.swift in Sources */,
+				A9275E6F262E95CF00145B15 /* ScreeningCell.swift in Sources */,
 				A950B8852607441600474BBC /* AppointmentVitalsCell.swift in Sources */,
 				BEFC8C52240D79BE003467FC /* UploadMedicalViewController.swift in Sources */,
 				BEC1F9B72333FEEF006B965E /* InformationCollectionViewCell.swift in Sources */,
@@ -1733,6 +1883,14 @@
 				minimumVersion = 2.0.1;
 			};
 		};
+		A9AED252262E0B8F00B8F921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
 		BE51276725E6548300A4030E /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
@@ -1780,6 +1938,41 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A950B87D26071FD900474BBC /* XCRemoteSwiftPackageReference "BetterSegmentedControl" */;
 			productName = BetterSegmentedControl;
+		};
+		A9AED253262E0B8F00B8F921 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9AED252262E0B8F00B8F921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		A9AED255262E0B8F00B8F921 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9AED252262E0B8F00B8F921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		A9AED257262E0B8F00B8F921 /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9AED252262E0B8F00B8F921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+		A9AED259262E0B8F00B8F921 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9AED252262E0B8F00B8F921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		A9AED25B262E0B8F00B8F921 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9AED252262E0B8F00B8F921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		A9AED25D262E0B8F00B8F921 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9AED252262E0B8F00B8F921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		A9AED25F262E0B8F00B8F921 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9AED252262E0B8F00B8F921 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 		BE51276825E6548300A4030E /* MBProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -8,9 +8,8 @@ target 'ABEO' do
   # Pods for ABEO
   pod 'LGButton'
   pod 'DropDown'
-  pod 'Firebase/Core'
-  pod 'Firebase/Messaging'
   pod 'MaterialComponents/TextFields'
+  pod 'YPImagePicker'
 end
 
 post_install do |installer|
