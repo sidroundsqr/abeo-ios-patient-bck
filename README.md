@@ -1,2 +1,3 @@
-# abeo-ios-patient
-#
+# ABEO
+
+Patient application for iPhone
